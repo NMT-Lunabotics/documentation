@@ -100,5 +100,10 @@ setup ended up looking like this:
    navigation commands from the map. `dwa_local_planner` was also
    considered, but was apparently abandoned.
 
-## 2023: DAVIID
+The robot used 2 Teknic brand motors for tread locomotion; these
+things are a nightmare to deal with. After a painful calibration
+process we drove them over USB, using Teknic's custom library called
+`sFoundation`; this talked to Teknic's custom motor driver boards,
+which connected to the motors themselves.
 
+## 2023: DAVIID
